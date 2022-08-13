@@ -1,5 +1,4 @@
-import Card from "./Card";
-import Navbar from "./Navbar";
-import Sidebar from "./Sidebar";
+import FlexRow from "./FlexRow";
+import SpaceBetweenRow from "./SpaceBetweenRow";
 
-export { Card, Navbar, Sidebar };
+export { FlexRow, SpaceBetweenRow };

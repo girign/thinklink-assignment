@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { ReactComponent as CheckIcon } from "./assets/check.svg";
+import { ReactComponent as CheckIcon } from "../../assets/check.svg";
 
 const Box = styled.div`
   height: 16px;

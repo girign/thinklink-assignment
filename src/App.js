@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import "./App.css";
-import Navbar from "./components/layout/Navbar";
-import Sidebar from "./components/layout/Sidebar";
+import { Navbar } from "./components/surface";
+import { Sidebar } from "./components/navigation";
 import Dashboard from "./features/Dashboard";
 
 const AppContainer = styled.div`

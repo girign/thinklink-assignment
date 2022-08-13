@@ -1,9 +1,10 @@
 import styled from "styled-components";
 import { ReactComponent as CorkowlLogo } from "./assets/corkowlLogo.svg";
 import { ReactComponent as BellIcon } from "./assets/bell.svg";
+import { COLOR_PRIMARY } from "../../../theme";
 
 const NavbarContainer = styled.div`
-  background-color: #811434;
+  background-color: ${COLOR_PRIMARY};
   display: flex;
   align-items: center;
   justify-content: space-between;
